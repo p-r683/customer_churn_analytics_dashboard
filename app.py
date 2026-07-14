@@ -528,24 +528,6 @@ def filter_data(df: pd.DataFrame) -> pd.DataFrame:
         filtered = filtered[
             filtered["subscription_start_date"].dt.date.between(start_date, end_date)
         ]
-
-    info_col, download_col = st.columns([3, 1])
-
-    with info_col:
-        st.caption(f"Showing {len(filtered):,} of {len(df):,} customer records")
-
-    with download_col:
-        csv_data = filtered.to_csv(index=False).encode("utf-8-sig")
-        st.download_button(
-            label="⬇ Download Filtered Data",
-            data=csv_data,
-            file_name=f"filtered_customer_churn_{datetime.now().strftime('%Y%m%d_%H%M%S')}.csv",
-            mime="text/csv",
-            use_container_width=True,
-            disabled=filtered.empty,
-            key="download_filtered_data",
-        )
-
     return filtered
 
 
@@ -1182,7 +1164,7 @@ st.markdown(
             <div class="topbar-title">Customer Churn Analytics Dashboard</div>
             <div class="topbar-subtitle">Interactive business intelligence view for retention, revenue and customer risk</div>
         </div>
-        <div class="small-note">Power BI-style layout • Streamlit</div>
+        <div class="small-note"></div>
     </div>
     """,
     unsafe_allow_html=True,
