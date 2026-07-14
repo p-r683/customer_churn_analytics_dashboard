@@ -57,7 +57,6 @@ customer-churn-analytics-dashboard/
 ├── app.py
 ├── requirements.txt
 ├── .gitignore
-├── LICENSE
 └── README.md
 ```
 
@@ -122,53 +121,6 @@ pip install -r requirements.txt
 ```bash
 streamlit run app.py
 ```
-
-Open the local address shown in the terminal, usually:
-
-```text
-http://localhost:8501
-```
-
-## Deploy on Streamlit Community Cloud
-
-1. Push this repository to GitHub.
-2. Sign in to Streamlit Community Cloud.
-3. Select **Create app**.
-4. Choose this repository and branch.
-5. Set the main file path to:
-
-```text
-app.py
-```
-
-6. Deploy the application.
-
-## GitHub Push Commands
-
-```bash
-git init
-git add .
-git commit -m "Initial commit: customer churn analytics dashboard"
-git branch -M main
-git remote add origin https://github.com/YOUR_USERNAME/customer-churn-analytics-dashboard.git
-git push -u origin main
-```
-
-## Suggested Screenshots
-
-Add these images to the `screenshots/` directory:
-
-- `monthly-dashboard.png`
-- `filter-data.png`
-- `customer-table.png`
-- `indicators.png`
-
-Then add them to this README:
-
-```markdown
-![Monthly dashboard](screenshots/monthly-dashboard.png)
-```
-
 ## Business Use Cases
 
 - Identify high-risk customers
@@ -196,6 +148,4 @@ Then add them to this README:
 - Add automated model monitoring
 - Add Docker and CI/CD
 
-## License
 
-This project is licensed under the MIT License.
