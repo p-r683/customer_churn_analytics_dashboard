@@ -4,7 +4,7 @@
 
   <h2>🚀 Live Demo</h2>
 
-  <a href="https://your-demo-link.streamlit.app/" target="_blank">
+  <a href="https://customerchurnanalyticsdashboard-kpjfh33z8nwxp9sb6hlvdp.streamlit.app/" target="_blank">
     <img
       src="https://img.shields.io/badge/Open%20Live%20Demo-Streamlit-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white"
       alt="Open Live Demo"
