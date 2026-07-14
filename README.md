@@ -1,5 +1,18 @@
 # Customer Churn Analytics Dashboard
 
+<div align="center">
+
+  <h2>🚀 Live Demo</h2>
+
+  <a href="https://your-demo-link.streamlit.app/" target="_blank">
+    <img
+      src="https://img.shields.io/badge/Open%20Live%20Demo-Streamlit-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white"
+      alt="Open Live Demo"
+    />
+  </a>
+
+</div>
+
 An interactive, Power BI-style customer churn dashboard built with **Python, Streamlit, Pandas and Plotly**.  
 The application lets users upload customer data, apply filters, review churn KPIs, explore customer segments and download the filtered results.
 
